@@ -14,6 +14,8 @@
 		10704EF52CAC210700AF59F6 /* PhotoEditorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10704EF42CAC210700AF59F6 /* PhotoEditorAppTests.swift */; };
 		10704EFF2CAC210700AF59F6 /* PhotoEditorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10704EFE2CAC210700AF59F6 /* PhotoEditorAppUITests.swift */; };
 		10704F012CAC210700AF59F6 /* PhotoEditorAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10704F002CAC210700AF59F6 /* PhotoEditorAppUITestsLaunchTests.swift */; };
+		10704F0E2CAC221900AF59F6 /* PhotoEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10704F0D2CAC221900AF59F6 /* PhotoEditorView.swift */; };
+		10704F102CAC3D2900AF59F6 /* BlurSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10704F0F2CAC3D2900AF59F6 /* BlurSetting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		10704EFA2CAC210700AF59F6 /* PhotoEditorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoEditorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10704EFE2CAC210700AF59F6 /* PhotoEditorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorAppUITests.swift; sourceTree = "<group>"; };
 		10704F002CAC210700AF59F6 /* PhotoEditorAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		10704F0D2CAC221900AF59F6 /* PhotoEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorView.swift; sourceTree = "<group>"; };
+		10704F0F2CAC3D2900AF59F6 /* BlurSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurSetting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				10704EE52CAC210400AF59F6 /* ContentView.swift */,
 				10704EE72CAC210700AF59F6 /* Assets.xcassets */,
 				10704EE92CAC210700AF59F6 /* Preview Content */,
+				10704F0D2CAC221900AF59F6 /* PhotoEditorView.swift */,
+				10704F0F2CAC3D2900AF59F6 /* BlurSetting.swift */,
 			);
 			path = PhotoEditorApp;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			files = (
 				10704EE62CAC210400AF59F6 /* ContentView.swift in Sources */,
 				10704EE42CAC210400AF59F6 /* PhotoEditorAppApp.swift in Sources */,
+				10704F0E2CAC221900AF59F6 /* PhotoEditorView.swift in Sources */,
+				10704F102CAC3D2900AF59F6 /* BlurSetting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
